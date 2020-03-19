@@ -59,8 +59,6 @@
 # plt.show()
 
 
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 # from scipy.misc import imread
@@ -72,6 +70,7 @@ from scipy.signal import convolve2d as conv2
 def main():
     image = cv2.imread("deblur.jpg")
     psf = np.ones((5, 5)) / 25
+    
 
 
     #plt.imshow(arr, cmap='gray')
